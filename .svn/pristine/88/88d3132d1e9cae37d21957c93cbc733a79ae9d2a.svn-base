@@ -1,0 +1,18 @@
+(function(){
+    function eye(){
+        var flag=true;
+        $(".main .main-right .balance p.eye").click(function(){
+            
+            if(flag){
+                $(this).css({backgroundPosition:"-33px 4px"})
+                $(this).children().html("0")
+                flag=false;
+            }else{
+                $(this).css({backgroundPosition:"5px -198px"})
+                $(this).children().html("******")
+                flag=true;
+            }
+        })
+    }
+    eye();
+})()

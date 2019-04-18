@@ -1,0 +1,87 @@
+if (getCookie('user')) {
+    cookieAdd()
+}
+$('.header .login-button').click(function () {
+    $('.header .ceng').show()
+})
+$('.ceng').click(function () {
+    $(this).hide();
+    $('.err1').css({
+        visibility: 'hidden'
+    })
+    $('.err2').css({
+        visibility: 'hidden'
+    })
+    $('button').html('登陆')
+})
+$('.login-register').click(function (e) {
+    e.stopPropagation()
+})
+$('.header .ceng .login input').focus(function () {
+    $('.err1').css({
+        visibility: 'hidden'
+    })
+    $('.err2').css({
+        visibility: 'hidden'
+    })
+})
+
+
+var flag;
+$('.header .ceng button').click(function () {
+    $(this).html('登陆中...')
+    var user = $('.header .ceng .user').val()
+    var pwd = $('.header .ceng .pwd').val()
+
+    $.ajax({
+        type: 'get',
+        url: 'api/doLogin.php',
+        data: {
+            user:user,
+            pw:pwd
+        },
+        dataType: 'json',
+        success: function (data) {
+            console.log(data)
+            if (data.code == 1) {
+                $('.header .ceng .err1').css({
+                    visibility: 'unset'
+                })
+                $('.header .ceng button').html('登陆')
+            } else if (data.code == 2) {
+                $('.header .ceng .err2').css({
+                    visibility: 'unset'
+                })
+                $('.header .ceng button').html('登陆')
+            } else {
+                $('.header .ceng').hide()
+                $('.header .ceng .err1').css({
+                    visibility: 'hidden'
+                })
+                $('.header .ceng .err2').css({
+                    visibility: 'hidden'
+                })
+                $('.header .ceng button').html('登陆')
+                // var user=data.user.name
+                flag = $(".header .ceng input[type='checkbox']").prop("checked");
+                if (flag) {
+                    setCookie('user', data.user.user, 7)
+                } else {
+                    setCookie('user', data.user.user)
+                }
+                cookieAdd()
+            }
+        }
+    })
+})
+
+    function cookieAdd() {
+        $('.header .user-name').html(getCookie('user'))
+        $('.header .header-right .exit-button').show().siblings().hide()
+        $('.header .ceng').hide()
+        $('.header .header-right .login').click(function () {
+            delCookie('user')
+            $(this).children('.exit-button').hide().siblings().show()
+            $('.header .user-name').html('')
+        })
+    }

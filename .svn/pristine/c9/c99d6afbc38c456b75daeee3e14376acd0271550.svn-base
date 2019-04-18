@@ -1,0 +1,53 @@
+(function(){
+    //左导航
+    function leftsidebar(){
+        // 左导航的移入移出
+        $(".banner ul li").hover(   
+            function(){
+                // $(this).index()
+                $(this).addClass("item-"+($(this).index()+1))
+            },
+            function(){
+                $(this).removeClass("item-"+($(this).index()+1))
+            }
+        )
+        // 左楼层导航
+        $(".banner ul li").click(function(){
+            // console.log($(".main .modules1").eq($(this).index()).offset().top)
+            var offsetTop = $(".main .modules1").eq($(this).index()).offset().top
+            $("html,body").animate({scrollTop:offsetTop},1000);
+        })
+    }
+    leftsidebar()
+
+    // 轮播图渐隐渐现
+    function banner(){
+        
+            $('.banner .banner2 img:first').show();
+            $('.list p').eq(0).css({background:'#c7181c'});
+            var x=0;
+            $('.list p').click(function(){
+                x=$(this).index();
+                fadeInOut(x);
+            })
+    
+            function fadeInOut(x){
+                $('.banner .banner2 img').eq(x).fadeIn().siblings().fadeOut();
+                $('.list p').eq(x).css({background:'#c7181c'}).siblings().css({background:'#fff'})
+            }
+            setInterval(function(){
+                x++;
+                if(x<5){
+                    fadeInOut(x)
+                }else{
+                    x=0;
+                    fadeInOut(x)
+                }
+            },2000)
+    
+        
+    }
+    banner()
+})()
+
+// 右导航：rightsidebar

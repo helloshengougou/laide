@@ -1,0 +1,365 @@
+//=====================头部效果
+; (function ($) {
+    //鼠标经过我的莱顿效果
+    $('.js_myaccount').hover(function () {
+        $(this).children().eq(0).addClass('active')
+        $('.js_myaccount i').removeClass('fa-angle-down').addClass('fa-angle-up')
+        $('.js_myaccount .myaccount-list').show()
+    }, function () {
+        $(this).children().eq(0).removeClass('active')
+        $('.js_myaccount i').removeClass('fa-angle-up').addClass('fa-angle-down')
+        $('.js_myaccount .myaccount-list').hide()
+    })
+    //鼠标经过手机莱顿效果
+    $('.js_down-app').hover(function () {
+        $(this).children().eq(0).addClass('active').next().show()
+        $('.js_down-app i').removeClass('fa-angle-down').addClass('fa-angle-up')
+    }, function () {
+        $(this).children().eq(0).removeClass('active').next().hide()
+        $('.js_down-app i').removeClass('fa-angle-up').addClass('fa-angle-down')
+    })
+    //鼠标经过帮助中心效果
+    $('.js_help-center').hover(function () {
+        $(this).children().eq(0).addClass('active')
+        $('.js_help-center i').removeClass('fa-angle-down').addClass('fa-angle-up')
+        $('.js_help-center .help-center-list').show()
+    }, function () {
+        $(this).children().eq(0).removeClass('active')
+        $('.js_help-center i').removeClass('fa-angle-up').addClass('fa-angle-down')
+        $('.js_help-center .help-center-list').hide()
+    })
+    //鼠标经过全部商品分类
+    $('.js_all-class').hover(function () {
+        $(this).children().eq(0).addClass('active').next().stop(true, true).slideDown("fast")
+        $('.js_all-class .fa').removeClass('fa-angle-down').addClass('fa-angle-up')
+    }, function () {
+        $(this).children().eq(0).removeClass('active').next().stop(true, true).slideUp("fast")
+        $('.js_all-class .fa').removeClass('fa-angle-up').addClass('fa-angle-down')
+    })
+})(jQuery)
+    //=====================搜索
+    ; (function ($) {
+        var time = new Date();
+        $('.search .text').keyup(function () {
+            $('.search .search-list').html('');
+            if ($('.search .text').val()) {
+                $.ajax({
+                    type: "get",
+                    url: "http://search.ule.com/api/suggest.action",
+                    jsonpCallback: 'searchList',
+                    data: {
+                        query: $('.search .text').val(),
+                        _: time.getTime(),
+                    },
+                    dataType: 'jsonp',
+                })
+            }
+        })
+        
+        window.searchList = function (data) {
+            $.each(data, function (name, num) {
+                var node=$("<li class='clearfix'><p class='fl'>"+name+"</p><p class='fr'>约<span> "+num+" </span>个商品</p></li>")
+                $('.search .search-list').append(node)
+            })
+        }
+    })(jQuery)
+    //====================固定定位搜索框和右侧返回顶部显示/隐藏效果
+    ; (function ($) {
+        $(window).scroll(function () {
+            var scrTop = $(document).scrollTop();//卷起高度
+            if (scrTop >= 650) {
+                $('.search .fix-box').addClass('fix-search')
+            } else {
+                $('.search .fix-box').removeClass('fix-search')
+            }
+
+            if (scrTop >= 180) {
+                $('.sidebar .sidebar-bottom>div').fadeIn()
+            } else {
+                $('.sidebar .sidebar-bottom>div').fadeOut()
+            }
+        })
+    })(jQuery)
+
+    
+//==================banner
+$(function () {
+    var n = 0;
+    var arr = ['#5322e6', '#f7410f', '#960505', '#ed4305', '#960505', '#960505']
+    $('.banner .dot li').mouseover(function () {
+        n = $(this).index()
+        $('.banner').css({ background: arr[n] })
+        $(this).css({ background: '#c7181b' }).siblings().css({ background: '#fff' })
+        $('.banner-page').eq($(this).index()).show().siblings().hide()
+    })
+    function auto() {
+        n++;
+        if (n > 6) {
+            n = 0;
+        }
+        $('.banner').css({ background: arr[n] })
+        $('.banner .dot li').eq(n).css({ background: '#c7181b' }).siblings().css({ background: '#fff' })
+        $('.banner-page').eq(n).show().siblings().hide()
+    }
+
+    ; (function ($) {
+        
+        time = setInterval(function () {
+            auto();
+        }, 5000)
+        
+    })(jQuery)
+
+})
+//====================页面主体第一个轮播图
+    ; (function ($) {
+        $('.main-banner h4').mouseenter(function () {
+            $(this).addClass('active').siblings().removeClass('active')
+            $(this).find('.t').show().parent().css({ color: '#d63334' }).parent().siblings().find('.t').hide().parent().css({ color: '#333' })
+
+            var n = $(this).index(), s = 0;
+            s = n * -279 + 'px';
+            $('.main-banner .page').animate({ top: s }, 300)
+        })
+    
+
+    })(jQuery)
+//===================三个轮播图的遮罩层
+    ; (function ($) {
+        $('.main-banner2 img').each(function (index, ele) {
+            var h = $('.main-banner2 img').eq(index).height()
+            var w=$('.main-banner2 img').eq(index).width()
+            var node = $('<div></div>')
+            node.css({ height: h, width: w })
+            $(this).after(node)
+        })
+})(jQuery)
+    //===============三个轮播图
+    ; (function ($) {
+        var index = 0, l = 0, time;
+        var obj = $('.main-banner2-middle .main-banner2-container');
+        obj.children().eq(0).clone().appendTo(obj)
+
+        $('.main-banner2 .dot li').mouseenter(function () {
+            clearTimeout(time)
+            $(this).addClass('active').siblings().removeClass('active')
+            var n = $(this).index(), s = 0;
+            s = n * -370 + 'px';
+            $(this).parent().prev().animate({ left: s }, 300)
+            if ($(this).parent().attr('class') == 'dot mm') {
+                index = n;
+                l = n
+            }
+        })
+        $('.main-banner2 .dot li').mouseleave(function () {
+            timer()
+        })
+        function auto() {
+            index++;
+            l++;
+            if (l == 2) {
+                l = 0;
+            }
+            if (index > 2) {
+                index = 1;
+                obj.css({ left: 0 })
+            }
+            obj.animate({ left: -index * 370 })
+            $('.main-banner2-middle .dot li').eq(l).addClass('active').siblings().removeClass('active')
+        }
+        function timer() {
+            time = setInterval(function () {
+                auto();
+            }, 3000)
+        }
+        timer()
+    })(jQuery)
+    //===============逛一逛
+        ; (function ($) {
+            var winH = window.innerHeight;//窗口高度
+            var conTop = $('.container').offset().top;//距离页面顶部高度
+            var n = 0, flag = true;
+            var time = new Date();
+        
+            $(window).scroll(function () {
+                var conH = $('.container').height();//内容高度
+                var scrTop =$(document).scrollTop() ;//卷起高度
+                if (conH + conTop - scrTop - winH <= 0) {
+                    if (flag) {
+                        flag = false;
+                        n++;
+                        $.ajax({
+                            type: "get",
+                            url: "http://item-service.ule.com/itemserviceweb/api/v1/retail/queryRetailListing",
+                           
+                            jsonpCallback:'callback',
+                            data: {
+                                _: time.getTime(),
+                                // restype: 2001,
+                                // moduleKeys:'index_hp_gyg2018'
+                                pageSize: 10,
+                                pageIndex:n
+                            },
+                            jsonp:'jsonCallBack',
+                            dataType:'jsonp',
+                            success: function (data) {
+                                if (n < 10) {
+                                    flag = true;
+                                }
+                            }
+                        })
+                    }
+                }
+            })
+            window.callback = function (data) {
+                
+                
+                // console.log(data.result)
+                // $.each(data.index_hp_gyg2018, function (index, val) {
+                $.each(data.result, function (index, val) {
+                        
+                    $.ajax({
+                        type: "post",
+                        url: "../api/getlist.php",
+                        data: {
+                            img: val.imgUrl,
+                            listname: val.listName,
+                            listId: val.listId,
+                            province: val.provinceName,
+                            price: val.salPrice,
+                            store: val.storeName,
+                            storeId: val.storeId,
+                            maxPrice:val.purchasePrice
+                        },
+                        dataType:'json',
+                        success: function (data) {
+                            console.log(data)
+                        }
+                    })
+
+
+                    // console.log(val)
+                    var listNode, liNode;
+                    //div添加类名
+                    // if (index % 5 == 0) {
+                    //     liNode = $('<li class="list-left"></li>')
+                    //     // if (!val.listingId) {
+                    //     //     liNode.addClass('ad')
+                    //     // }
+                    // } else {
+                        liNode = $('<li class=""></li>')
+                        if (!val.listId) {
+                            liNode.addClass('ad')
+                        }
+                    
+                        
+                    //添加div里面内容
+                    // listNode = $('<a href="#" class="prod-pic"><img src="http://'+val.imgUrl+'" alt="'+val.listingName+'"></a><p class="prod-name"><a href="#">'+val.listingName+'</a></p><p class="prod-price"><span>￥ '+val.minPrice+'</span><del>￥'+val.maxPrice+'</del></p>')
+
+                    if (val.listId) {
+                        listNode = $('<a href="#"><img src='+val.imgUrl+' alt=""></a><p class="prod-name"><a href="#">'+val.listName+'</a></p><p class="prod-price"><span>￥'+val.salPrice+'</span></p><p class="shop-area"><a href="#">'+val.storeName+'</a><span>'+val.provinceName.slice(0,val.provinceName.length-1)+'</span></p>')
+                    } else {
+                        listNode=$('<a href="#"><img src='+val.imgUrl+'></a>')
+                    }
+                    liNode.append(listNode)
+                    $('.main-other ul').append(liNode);
+                })
+                
+            }
+            // callback(page)
+    })(jQuery)
+    //============楼层导航
+    ; (function ($) {
+        var winH = window.innerHeight;//窗口高度
+        $(window).scroll(function () {
+            var scrTop = $(document).scrollTop();//卷起高度
+            var firstTop = $('.main-floor li').eq(0).offset().top;//第一个距顶部距离
+            $('.main-floor li').each(function (index) {
+                var conH = $(this).height();//内容高度
+                var conTop = $(this).offset().top;//距顶部距离
+                if (conTop + conH - winH - scrTop <= 200) {
+                    $('.main-floor-nav li').eq($(this).index()).removeClass('init').siblings().addClass('init')
+                }
+            })
+            if (firstTop - scrTop - winH <= -200) {
+                $('.main-floor-nav').show()
+            } else {
+                $('.main-floor-nav').hide()
+            }
+        })
+        $('.main-floor-nav li').click(function () {
+            var eleH = $('.main-floor li').eq($(this).index()).height();//内容高度
+            $(this).removeClass('init')
+            if ($(this).index() != 5) {
+                var s = $('.main-floor li').eq($(this).index()).offset().top - winH + eleH;
+                $('body,html').animate({ scrollTop: s }, 500)
+            } else {
+                $('body,html').animate({ scrollTop: 0 }, 500)
+            }
+        })
+    })(jQuery)
+    //============隐藏侧边栏
+    ; (function($){
+        var winW = window.innerWidth;
+        if (winW > 1240) {
+            $('.sidebar').css({right:0})
+        }
+        $(window).resize(function () {
+            winW = window.innerWidth;
+            if (winW > 1240) {
+                $('.sidebar').css({right:0})
+            } else {
+                $('.sidebar').css({right:-40})
+            }
+        })
+})(jQuery)
+    //============侧边栏点击返回顶部
+    ; (function($){
+        $('.sidebar-bottom').click(function () {
+            $('body,html').animate({ scrollTop: 0 }, 500)
+        })
+})(jQuery)
+//===============侧边栏全部商品分类样式
+; (function($){
+    var winH = window.innerHeight;
+        $('.sidebar .all-class-list-box').css({height:winH-90})
+        $(window).resize(function () {
+            winH = window.innerHeight;
+        $('.sidebar .all-class-list-box').css({height:winH-90})
+        })
+    $('.sidebar .all-class-list-box h4').click(function () {
+            $(this).next().show().parent().siblings().children('p').hide()
+        })
+})(jQuery)
+//===============侧边栏点击展开全部分类
+    ; (function ($) {
+        flag = true;
+        $('.sidebar .sidebar-top').children().eq(0).click(function () {
+            if (flag) {
+                flag = false;
+                $(this).addClass('all-class').children().addClass('active')
+                $('.sidebar .all-class-list').show()
+            } else {
+                flag = true;
+                $(this).removeClass('all-class').children().removeClass('active')
+                $('.sidebar .all-class-list').hide()
+        }
+        
+    })
+})(jQuery)
+//===============侧边栏点击展开购物车
+; (function ($) {
+    flag = true;
+    $('.sidebar .sidebar-middle').children().eq(1).click(function () {
+        if (flag) {
+            flag = false;
+            $(this).addClass('all-class').children().addClass('active').children('.mycar').show()
+            // $('.sidebar .all-class-list').show()
+        } else {
+            flag = true;
+            $(this).removeClass('all-class').children().removeClass('active').children('.mycar').hide()
+            // $('.sidebar .all-class-list').hide()
+    }
+    
+})
+})(jQuery)

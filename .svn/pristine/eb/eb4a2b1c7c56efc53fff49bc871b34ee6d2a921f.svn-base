@@ -1,0 +1,2278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/groupBooking.css">
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="header">
+        <!-- 登录条 -->
+        <div class="loginbar">
+            <div class="center">
+                <div class="loginbar-left">
+                    <div><img src="../images/mwb09/homepage.png" alt=""></div>
+                    <p>邮乐首页</p>
+                </div>
+                <div class="loginbar-right">
+                    <ul class="list clearfix">
+                        <li class="hello">您好,欢迎来到莱德网</li>
+                        <li class="login">
+                            <a href="#">[请登陆]</a>
+                            <a href="#">[免费注册]</a>
+                        </li>
+                        <li class="interval">丨 </li>
+                        <li class="me"><a href="#">我的邮乐<img src="../images/mwb09/arrowsDown.png" alt=""></a></li>
+                        <li class="interval">丨 </li>
+                        <li class="app">手机邮乐<img src="../images/mwb09/arrowsDown.png" alt=""></li>
+                        <li class="interval">丨 </li>
+                        <li class="all"><a href="#"><span></span>全部商品分类<img src="../images/mwb09/arrowsDown.png" alt=""></a></li>
+                        <li class="interval">丨 </li>                        
+                        <li class="map"><a href="#">网站地图</a></li>
+                        <li class="interval">丨 </li>
+                        <li class="help"><a href="#">帮助中心<img src="../images/mwb09/arrowsDown.png" alt=""></a></li>
+                        <li class="interval">丨 </li>                        
+                        <li class="number"><span></span> </li>
+                    </ul>
+                </div>    
+            </div> 
+        </div>
+        <!-- 搜索条 -->
+        <div class="search clearfix">
+            <div class="logo">
+                <a href="#"><img src="../images/mwb09/logo.png" alt=""></a>
+            </div>
+            <div class="search-box">
+                    <input type="text" value="拼团盛惠,省钱大作战,邮你更精彩!">
+                    <button></button>
+                    <p><a href="#" class="color">精准扶贫</a><a href="#" class="color">中国集邮</a><a href="#">新鲜水果</a><a href="#">奶粉</a><a href="#">潮流女鞋</a><a href="#">洗发护发</a><a href="#">剃须刀</a><a href="#">坚果炒货</a><a href="#">纸巾</a></p>
+            </div>
+            <div class="shopping-trolley ">
+                <span>购物车</span>
+                <span class="number">0</span>
+            </div>
+        </div>
+        <!-- 菜单条 --> 
+        <div class="menu">
+              <div class="center clearfix">
+                  <div class="classification">
+                      <a href="#">
+                            <span class="size"></span>
+                            <span>全部商品分类</span>
+                            <span><img src="../images/mwb09/arrowsDown2.png" alt="" class="arrows"></span>
+                      </a>
+                  </div>
+                  <ul class="list">
+                      <li><a href="#">首页</a></li>
+                      <li><a href="#">拼团</a></li>
+                      <li><a href="#">天天特卖</a></li>
+                      <li><a href="#">海外馆</a></li>
+                      <li><a href="#">邮乐农品</a></li>
+                  </ul>
+              </div>
+        </div>
+    </div>
+    <!-- 顶部结束 -->
+    <!-- banner开始 -->
+    <div class="banner">
+       
+        <div class="banner-menu clearfix">
+             <!-- 左侧列表 -->
+            <ul>
+                <li class="item1"></li>
+                <li class="item2"></li>
+                <li class="item3"></li>
+                <li class="item4"></li>
+                <li class="item5"></li>
+                <li class="item6"></li>
+                <li class="item7"></li>
+                <li class="item8"></li>
+                <li class="item9"></li>
+                <li class="item10"></li>
+                <li class="item11"></li>
+            </ul>
+             <!-- 左侧列表结束 -->
+             <!-- 轮播图 -->
+            <div class="position">
+                <div class="banner2">
+                    <img src="../images/mwb09/banner1.jpg" alt="" class="block">
+                    <img src="../images/mwb09/banner2.jpg" alt="">
+                    <img src="../images/mwb09/banner3.jpg" alt="">
+                    <img src="../images/mwb09/banner4.jpg" alt="">
+                    <img src="../images/mwb09/banner5.jpg" alt="">
+                </div>
+                    <!-- 轮播图结束 -->
+                <!-- 轮播图的控制点 -->
+                <div class="list">
+                    <p class="one"></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- banner结束 -->
+    <!--推荐  -->
+    <div class="recommend">
+        <div class="recommend-top">
+            <img src="../images/mwb09/recommend.png" alt="">
+        </div>
+        <div class="recommend-bottom">
+            <img src="../images/mwb09/recommend1.png" alt="">
+            <img src="../images/mwb09/recommend2.png" alt="">
+            <img src="../images/mwb09/recommend3.png" alt="">
+        </div>
+    </div>
+    <!-- 主要内容 -->
+    <div class="main">
+        <!-- 二维码 -->
+        <div class="ewm">
+            <img src="../images/mwb09/ewm.jpg" alt="">
+        </div>
+        <div class="modules1 m1">
+            <div class="boutique">
+                <div>精品推荐</div>
+            </div>
+            <div class="commodity">
+                <ul class="clearfix">
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="more clearfix">
+                <div class="more-position"></div>
+            </div>
+        </div>
+        <div class="modules1 m2">
+            <div class="boutique">
+                <div>特色美食</div>
+            </div>
+            <div class="commodity">
+                <ul class="clearfix">
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="more clearfix">
+                <div class="more-position"></div>
+            </div>
+        </div>
+        <div class="modules1 m3">
+            <div class="boutique">
+                <div>家居厨卫</div>
+            </div>
+            <div class="commodity">
+                <ul class="clearfix">
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="more clearfix">
+                <div class="more-position"></div>
+            </div>
+        </div>
+        <div class="modules1 m4">
+            <div class="boutique">
+                <div>美妆洗护</div>
+            </div>
+            <div class="commodity">
+                <ul class="clearfix">
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="more clearfix">
+                <div class="more-position"></div>
+            </div>
+        </div>
+        <div class="modules1 m5">
+            <div class="boutique">
+                <div>服装配饰</div>
+            </div>
+            <div class="commodity">
+                <ul class="clearfix">
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="more clearfix">
+                <div class="more-position"></div>
+            </div>
+        </div>
+        <div class="modules1 m6">
+            <div class="boutique">
+                <div>3C数码</div>
+            </div>
+            <div class="commodity">
+                <ul class="clearfix">
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="more clearfix">
+                <div class="more-position"></div>
+            </div>
+        </div>
+        <div class="modules1 m7">
+            <div class="boutique">
+                <div>家用电器</div>
+            </div>
+            <div class="commodity">
+                <ul class="clearfix">
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="more clearfix">
+                <div class="more-position"></div>
+            </div>
+        </div>
+        <div class="modules1 m8">
+            <div class="boutique">
+                <div>母婴教育</div>
+            </div>
+            <div class="commodity">
+                <ul class="clearfix">
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="more clearfix">
+                <div class="more-position"></div>
+            </div>
+        </div>
+        <div class="modules1 m9">
+            <div class="boutique">
+                <div>运动户外</div>
+            </div>
+            <div class="commodity">
+                <ul class="clearfix">
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="more clearfix">
+                <div class="more-position"></div>
+            </div>
+        </div>
+        <div class="modules1 m10">
+            <div class="boutique">
+                <div>箱包鞋靴</div>
+            </div>
+            <div class="commodity">
+                <ul class="clearfix">
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="more clearfix">
+                <div class="more-position"></div>
+            </div>
+        </div>
+        <div class="modules1 m11">
+            <div class="boutique">
+                <div>礼品卡券</div>
+            </div>
+            <div class="commodity">
+                <ul class="clearfix">
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="commodity-img">
+                            <img src="../images/mwb09/commodity1.jpg" alt="">
+                        </div>
+                        <div class="products-introduction">
+                            <h3>边走边淘 广西高乐密芒果 5斤 单果200g 包邮</h3>
+                            <p class="spell-group-price">拼团价</p>
+                            <div class="price">
+                                <span class="new-price">￥34.8</span>
+                                <span class="original-price">￥39.8</span>
+                            </div>
+                            <div class="immediately">立即开团</div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="more clearfix">
+                <div class="more-position"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 主要内容结束 -->
+    <!-- 团购活动 -->
+    <div class="activity">
+        <div class="activity-img">
+            <img src="../images/mwb09/activity.png" alt="">
+        </div>
+        <div class="activity-rules">
+            <p>团购活动规则：
+                <br>
+                1、用户登录邮乐网发起团购后，分享优惠链接给邮乐网会员，只需满商品页面标识的最低参团人数，即可享受团购价；
+                <br>
+                2、团购商品每人每单限买1件，不限下单次数。已付款未成团的订单不可取消，若未能在24小时内成团，系统会自动退还已付款项; 
+                <br>
+                3、需要退换货的商品在成团后可在邮乐“我的订单”中根据邮乐网平台规则申请退换；若未能在24小时内成团，则退还已付款项。</p>
+        </div>
+    </div>
+    <!-- 团购活动结束 -->
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="footer-banner">
+            <a href="#" class="banner1" title="中国邮政"></a>
+            <a href="#" class="banner2" title="携手呈现"></a>
+            <a href="#" class="banner3" title="品质保障 优选邮乐"></a>
+            <a href="#" class="banner4" title="覆盖城乡 安全送达"></a>
+        </div>
+        <div class="footer-helper">
+            <!-- 购物助手链接 -->
+            <ul class="clearfix">
+                <li class="footer-left">
+                    <h4>购物指南</h4>
+                    <div class="href-box clearfix">
+                        <a href="#">购物流程</a>
+                        <a href="#">使用优惠券</a>
+                        <a href="#">积分规则</a>
+                        <a href="#">如何找回密码</a>
+                        <a href="#">订单多包裹配送</a>
+                        <a href="#">在线客服(邮乐通)</a>
+                        <a href="#">品牌大全</a>
+                    </div>
+                </li>
+                <li>
+                    <h4>支付帮助</h4>
+                    <div class="href-box clearfix">
+                        <a href="#">邮乐卡支付</a>
+                        <a href="#">网上银行支付</a>
+                        <a href="#">邮储快捷支付</a>
+                        <a href="#">邮乐快捷支付协议</a>
+                        <a href="#">发票说明</a>
+                    </div>
+                </li>
+                <li>
+                    <h4>配送方式</h4>
+                    <div class="href-box clearfix">
+                        <a href="#">海外购物配送</a>
+                        <a href="#">签收拒收规则</a>
+                        <a href="#">配送时间/范围/运费</a>
+                    </div>
+                </li>
+                <li>
+                    <h4>售后服务</h4>
+                    <div class="href-box clearfix">
+                        <a href="#">退换货规则</a>
+                        <a href="#">退款说明</a>
+                        <a href="#">联系客服</a>
+                        <a href="#">退换货流程</a>
+                        <a href="#">退换货运费补偿标准</a>
+                        <a href="#">纠纷申诉处理规则说明</a>
+                    </div>
+                </li>
+                <li>
+                    <h4>特色服务</h4>
+                    <div class="href-box clearfix">
+                        <a href="#">邮掌柜</a>
+                        <a href="#">邮乐海外站</a>
+                        <a href="#">手机充值</a>
+                    </div>
+                </li>
+                <li class="footer-right">
+                    <h4>关于邮乐</h4>
+                    <div class="href-box clearfix">
+                        <a href="#">邮乐简介</a>
+                        <a href="#">邮乐招商</a>
+                        <a href="#">商家入驻</a>
+                        <a href="#">商家中心</a>
+                        <a href="#">友情链接</a>
+                        <a href="#">用户协议</a>
+                        <a href="#">隐私权保护</a>
+                        <a href="#">网站地图</a>
+                    </div>
+                </li>
+                
+            </ul>
+            <!-- 购物助手链接结束 -->
+        </div>
+        <div class="footer-license">
+            <span>出版物经营许可证编号：沪零字第L6687号</span>
+            <span>酒类商品零售许可证：0318030103000002</span>
+            <span>食品流通许可证：SP3101151560900563</span>
+            <span>统一社会信用代码:913100006916203638</span>
+        </div>
+        <div class="copyright">沪ICP备:13037728 号 Copyright 2009-2019, 版权所有上海邮乐网络技术有限公司 ULE.COM</div>
+        <div class="footer-icon clearfix">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+    </div>
+    <!-- 底部结束 -->
+    <!-- 右侧楼层导航 -->
+    <div class="rightsidebar">
+        <div class="rightsidebar-top"><div class="rightsidebar-top2"></div></div>
+        <div class="body1"></div>
+        <ul class="body2">
+            <li>精品推荐</li>
+            <li>特色美食</li>
+            <li>家居厨卫</li>
+            <li>美妆洗护</li>
+            <li>服装配饰</li>
+            <li>3C数码</li>
+            <li>家用电器</li>
+            <li>母婴教育</li>
+            <li>运动户外</li>
+            <li>箱包鞋靴</li>
+            <li>礼品卡券</li>
+        </ul>
+        <div class="body3"></div>
+        <div class="rightsidebar-btn"></div>
+    </div>
+    <script src="../js/jquery-1.8.3.min.js"></script>
+    <script src="../js/groupBooking.js"></script>
+</body>
+</html>

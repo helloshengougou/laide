@@ -1,0 +1,126 @@
+(function(){
+    //点击出现   新增
+    function maskLayer(){
+        $(".main .main-right .add").click(function(){
+            $(".mask-layer").show()
+        })
+        $(".mask-layer").click(function(){
+            $(this).hide()
+        })
+        $(".mask-layer .add").click(function(e){
+            e.stopPropagation()
+        })
+    }
+    maskLayer()
+    // input点击事件
+    function click(){
+        $(".mask-layer .add .message .consignee-1 input").click(function(){
+            $(this).val("")
+        })
+        $(".mask-layer .add .message .consignee-2 input").click(function(){
+            $(this).val("")
+        })
+        $(".mask-layer .add .message .consignee-3 input").click(function(){
+            $(this).val("")
+        })
+        $(".mask-layer .add .message .consignee-4 input").click(function(){
+            $(this).val("")
+        })
+        $(".mask-layer .add .message .consignee-5 input").click(function(){
+            $(this).val("")
+        })
+    }
+    click()
+    // 点击取消   关闭添加
+    function cancel(){
+        $(".mask-layer .add .message .affirm .cancel").click(function(){
+            console.log(1111)
+            $(".mask-layer").hide();
+        })
+    }
+    cancel()
+    // 手机号判断
+    function isPoneAvailable(str) {
+        var myreg=/^[1][3,4,5,7,8][0-9]{9}$/;
+        if (!myreg.test(str)) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+    
+    //邮政编码判断
+    function postalCode(str) {
+        var myreg=/^[1-9][0-9]{5}$/;
+        if (!myreg.test(str)) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+    //失去焦点判断input是否为空,格式是否正确
+
+    function noNull(){
+        $(".mask-layer .add .message .consignee-1 input").blur(function(){
+            if(!$(this).val()){
+                $(this).next().text("用户名不能为空")
+            }else{
+                $(this).next().text("用户名格式正确")
+            }
+        })
+        $(".mask-layer .add .message .consignee-2 input").blur(function(){
+            console.log($(".mask-layer .add .message .consignee-2 input").val())
+            var tel=isPoneAvailable($(".mask-layer .add .message .consignee-2 input").val())
+            
+            if(tel){
+               $(this).next().text("手机号正确")
+            }else{
+                $(this).next().text("请输入正确的手机号")
+                
+            }
+        })
+        $(".mask-layer .add .message .consignee-3 input").blur(function(){
+            if(!$(this).val()){
+                $(this).next().text("收货地址不能为空")
+            }else{
+                $(this).next().text("")
+            }
+        })
+        $(".mask-layer .add .message .consignee-4 input").blur(function(){
+            if(!$(this).val()){
+                
+            }else{
+                $(this).next().text("")
+            }
+        })
+        $(".mask-layer .add .message .consignee-5 input").blur(function(){
+            var postal=postalCode($(this).val())
+            if(!postal){
+                $(this).next().text("邮政编码格式不正确")
+            }else{
+                $(this).next().text("")
+            }
+        })
+    } 
+    noNull()
+    // 地址的选择
+    function address(){
+        $(function () {
+            $(".mask-layer .add .message .consignee-3 input").jcity({
+                urlOrData: '/js/citydata.json',
+                animate: { showClass: 'animated flipInX', hideClass: 'animated flipOutX' },  // 需要第一步引用的animate.min.css文件，也可以自己定义动画 
+                onChoice: function (data) {
+                    // console.log(data)
+                }
+            });
+        });
+    }
+    address()
+    // 点击确认  发起ajax
+    function add(){
+        $(".mask-layer .add .message .affirm .save").click(function(){
+            
+        })
+    }
+    add()
+})()

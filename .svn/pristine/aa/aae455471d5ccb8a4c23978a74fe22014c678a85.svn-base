@@ -1,0 +1,30 @@
+<?php
+    include("../inc/dbconn.php");
+
+    $img = $_POST["img"];
+    $listname = $_POST["listname"];
+    $listId=$_POST["listId"];
+    $province=$_POST["province"];
+    $price=$_POST["price"];
+    $storeName=$_POST["store"];
+    $storeId=$_POST["storeId"];
+    $maxPrice=$_POST["maxPrice"];
+
+    $sql="select * from list where listId=$listId";
+    $result = $conn->query($sql);
+    if($result->num_rows==0){
+        // echo '1';
+        $sql2 = "insert into list (listId,listname,img,province,price,maxPrice,storeId,storeName) values('$listId','$listname','$img','$province','$price', $maxPrice,'$storeId','$storeName')";
+    // $sql="select * from admin";
+    $result2 = $conn->query($sql2);
+
+    if ($conn->affected_rows){
+            $data["code"] = 0;
+        }else{
+            $data["code"] = 1;
+        }
+    echo json_encode($data);
+    }
+
+    
+?>

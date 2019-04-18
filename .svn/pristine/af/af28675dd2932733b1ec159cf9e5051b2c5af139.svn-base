@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/particulars.css">
+</head>
+<body>
+        <div class="commodity clearfix">
+                <div class="preview">
+                    <div class="tap-event">
+                        <p>拼团</p>
+                    </div>
+                    <div class="pic">
+                            <div class="glass"></div>
+                    </div>
+                    
+                    <div class="spec-items">
+                        <ul class="clearfix">
+                            <li>
+                                <img src="../images/particulars/be502441169d5747_p800x800_m.jpg" alt="" class="samll-pic">
+                            </li>
+                            <li>
+                                <img src="../images/particulars/b19c3c8628b407e8_p800x800_m.jpg" alt="" class="samll-pic">
+                            </li>
+                            <li>
+                                <img src="../images/particulars/8bef284808bc6165_p800x800_m.jpg" alt="" class="samll-pic">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="big-pic"></div>
+                </div>
+            </div>
+</body>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script>
+    $('.commodity .pic').mouseover(function(e){
+        var x=e.pageX-$(this).offset().left-$('.glass').width()/2;
+        
+        var y=e.pageY-$(this).offset().top-$('.glass').height()/2;
+        console.log(x,y)
+        // console.log($('.glass').width()/2);
+        if(x>$(this).width()-$('.glass').width()){
+            x=$(this).width()-$('.glass').width()
+        }
+        if(x<0){
+            x=0
+        }
+        if(y>$(this).height()-$('.glass').height()){
+            y=$(this).height()-$('.glass').height()
+        }
+        if(y<0){
+            y=0
+        }
+        $('.glass').css({top:y,left:x});
+        $('.big-pic').css({backgroundPositionX:-2*x,backgroundPositionY:-2*y})
+    })
+
+</script>
+</html>
